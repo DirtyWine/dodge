@@ -15,6 +15,6 @@ public interface ConstantGame {
     int FAST_SPEED = 100;
     int Low_CHANCE = 90;
     int HIGH_CHANCE = 30;
-    int WIN = 1;
+    int WIN = 15;
     int LOSE = 0;
 }
