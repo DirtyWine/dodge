@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@drawable/bg2">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:text="Choose Mode"
+            />
+    <RadioGroup
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/easy"
+            android:text="Easy"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+        <RadioButton
+                android:id="@+id/mid"
+                android:text="Normal"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioButton
+                android:id="@+id/hard"
+                android:text="Hard"
+                android:textSize="40dp"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BGM  "
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+        <RadioGroup
+                android:id="@+id/bgm_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <RadioButton
+                    android:id="@+id/bgm_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="casual"
+                    android:text="ON  "
+                    android:checked="true"/>
+            <RadioButton
+                    android:id="@+id/bgm_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="casual"
+                    android:text="OFF"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOUND  "
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+        <RadioGroup
+                android:id="@+id/sound_option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <RadioButton
+                    android:id="@+id/sound_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="casual"
+                    android:text="ON  "
+                    android:checked="true"/>
+            <RadioButton
+                    android:id="@+id/sound_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="casual"
+                    android:text="OFF"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/ok_option"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+</LinearLayout>

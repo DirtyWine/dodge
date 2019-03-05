@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dodge</string>
+
+    <string name="win">YOU WIN !</string>
+    <string name="lose">YOU LOSE !</string>
+
+    <string name="rules">It is a simple game!Just follow what you see,score 100 to WIN,and try not to die!Good luck!</string>
+</resources>

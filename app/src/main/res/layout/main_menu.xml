@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+        <ImageView
+                android:id="@+id/logo"
+                android:src="@drawable/player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"/>
+        <TextView
+                android:id="@+id/multiplay"
+                android:fontFamily="casual"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:text="Multiplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+        <ImageView
+                android:id="@+id/start"
+                android:src="@drawable/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"/>
+
+        <ImageView
+                android:id="@+id/option"
+                android:src="@drawable/option"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"/>
+
+        <ImageView
+                android:id="@+id/help"
+                android:src="@drawable/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"/>
+
+        <ImageView
+                android:id="@+id/quit"
+                android:src="@drawable/quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

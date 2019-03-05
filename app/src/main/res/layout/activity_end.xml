@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.msi.dodge.EndActivity"
+        android:orientation="vertical"
+        android:background="@drawable/bg2"
+        android:gravity="center">
+
+    <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:fontFamily="casual"
+            android:textStyle="bold"/>
+
+    <Button
+            android:onClick="tryAgain"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="再试一次"/>
+
+    <Button
+            android:onClick="goMain"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回主菜单"/>
+</LinearLayout>
